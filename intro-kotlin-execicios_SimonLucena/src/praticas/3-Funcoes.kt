@@ -1,3 +1,4 @@
+// Aluno: Simon Lucena de Castro
 package praticas
 
 val materiasENotas = mutableMapOf<String, MutableList<Double>>()
@@ -157,8 +158,8 @@ fun main(){
     // FEITO
 
     // 12: calcularMedia -> calcule a media de 2 disciplinas
-    println(calcularMedia("PDM"))
-    println(calcularMedia("Estagio"))
+    // println(calcularMedia("PDM"))
+    // println(calcularMedia("Estagio"))
 
     // 13: mostrarNotas -> altere o mostrarNotas() para que ele mostre também a media das disciplinas
     // FEITO

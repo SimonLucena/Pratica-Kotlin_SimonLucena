@@ -1,3 +1,4 @@
+// Aluno: Simon Lucena de Castro
 package praticas
 
 class Livro(var titulo: String, var preco: Double) {
