@@ -8,3 +8,5 @@ Prática 1: Sintaxe Básica  -> intro-kotlin-execicios_SimonLucena\src\praticas\
 Prática 2: Funções         -> intro-kotlin-execicios_SimonLucena\src\praticas\3-Funcoes.kt
 
 Prática 3: Objetos parte 1 -> intro-kotlin-execicios_SimonLucena\src\praticas\4-Classes-e-Objetos-pt1
+
+Prática 4: Objetos parte 1 -> intro-kotlin-execicios_SimonLucena\src\praticas\5-Classes-e-Objetos-pt2
