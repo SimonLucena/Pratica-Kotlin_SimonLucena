@@ -90,10 +90,7 @@ class ContaBancaria(var numeroConta: String = "",
         get() = field.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
 
     // Implemente override do setter para o atributo saldo conforme especificado na questão
-    var saldo: Double = saldo
-        set(value) {
-            field = if (value >= 0.0) value else 0.0
-        }
+    var saldo: Double = if (saldo >= 0.0) saldo else 0.0
 
     override fun toString(): String {
         return "Conta: Nome = $nomeTitular, Saldo = $saldo"
